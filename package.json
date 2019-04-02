@@ -1,0 +1,26 @@
+{
+  "name": "cms",
+  "version": "0.0.0",
+  "description": "json cms",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "compile": "babel src -w -d dist"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "snabbdom": "^0.7.1",
+    "snabbdom-to-html": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.17.5"
+  }
+}
